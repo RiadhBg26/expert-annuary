@@ -1,0 +1,529 @@
+<!-- Main Wrapper -->
+<div class="main-wrapper">
+		
+	<!-- Header -->
+	<div class="header">
+	
+		<!-- Logo -->
+		<div class="header-left">
+			<a href="javascript:void(0);" class="logo mt-2">
+				<!-- <img src="assets/adimgs/logo.png" alt="Logo"> -->
+				<h2>Expert'<span class="ml-2">ease</span></h2>
+			</a>
+			<a href="javascript:void(0);" class="logo logo-small">
+				<h2>Expert'ease</h2>
+			</a>
+		</div>
+		<!-- /Logo -->
+		
+		<a href="javascript:void(0)" id="toggle_btn">
+			<i class="fe fe-text-align-left"></i>
+		</a>
+		
+		<div class="top-nav-search">
+			<form>
+				<input type="text" class="form-control" placeholder="Search here">
+				<button class="btn" type="submit"><i class="fa fa-search"></i></button>
+			</form>
+		</div>
+		
+		<!-- Mobile Menu Toggle -->
+		<a class="mobile_btn" id="mobile_btn">
+			<i class="fa fa-bars"></i>
+		</a>
+		<!-- /Mobile Menu Toggle -->
+		
+		<!-- Header Right Menu -->
+		<ul class="nav user-menu">
+
+			<!-- Notifications -->
+			<li class="nav-item dropdown noti-dropdown">
+				<a href="javascript:void(0)" class="dropdown-toggle nav-link" data-toggle="dropdown">
+					<i class="fe fe-bell"></i> <span class="badge badge-pill">3</span>
+				</a>
+				<div class="dropdown-menu notifications">
+					<div class="topnav-dropdown-header">
+						<span class="notification-title">Notifications</span>
+						<a href="javascript:void(0)" class="clear-noti"> Clear All </a>
+					</div>
+					<div class="noti-content">
+						<ul class="notification-list">
+							<li class="notification-message">
+								<a href="javascript:void(0);">
+									<div class="media">
+										<span class="avatar avatar-sm">
+											<img class="avatar-img rounded-circle" alt="User Image" src="assets/adimgs/doctors/doctor-thumb-01.jpg">
+										</span>
+										<div class="media-body">
+											<p class="noti-details"><span class="noti-title">Dr. Ruby Perrin</span> Schedule <span class="noti-title">her appointment</span></p>
+											<p class="noti-time"><span class="notification-time">4 mins ago</span></p>
+										</div>
+									</div>
+								</a>
+							</li>
+							<li class="notification-message">
+								<a href="javascript:void(0);">
+									<div class="media">
+										<span class="avatar avatar-sm">
+											<img class="avatar-img rounded-circle" alt="User Image" src="assets/adimgs/patients/patient1.jpg">
+										</span>
+										<div class="media-body">
+											<p class="noti-details"><span class="noti-title">Charlene Reed</span> has booked her appointment to <span class="noti-title">Dr. Ruby Perrin</span></p>
+											<p class="noti-time"><span class="notification-time">6 mins ago</span></p>
+										</div>
+									</div>
+								</a>
+							</li>
+							<li class="notification-message">
+								<a href="#">
+									<div class="media">
+										<span class="avatar avatar-sm">
+											<img class="avatar-img rounded-circle" alt="User Image" src="assets/adimgs/patients/patient2.jpg">
+										</span>
+										<div class="media-body">
+										<p class="noti-details"><span class="noti-title">Travis Trimble</span> sent a amount of $210 for his <span class="noti-title">appointment</span></p>
+										<p class="noti-time"><span class="notification-time">8 mins ago</span></p>
+										</div>
+									</div>
+								</a>
+							</li>
+							<li class="notification-message">
+								<a href="#">
+									<div class="media">
+										<span class="avatar avatar-sm">
+											<img class="avatar-img rounded-circle" alt="User Image" src="assets/adimgs/patients/patient3.jpg">
+										</span>
+										<div class="media-body">
+											<p class="noti-details"><span class="noti-title">Carl Kelly</span> send a message <span class="noti-title"> to his doctor</span></p>
+											<p class="noti-time"><span class="notification-time">12 mins ago</span></p>
+										</div>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="topnav-dropdown-footer">
+						<a href="#">View all Notifications</a>
+					</div>
+				</div>
+			</li>
+			<!-- /Notifications -->
+			
+			<!-- User Menu -->
+			<li class="nav-item dropdown has-arrow">
+				<a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+					<span class="user-img"><img class="rounded-circle" src="assets/adimgs/profiles/avatar-01.jpg" width="31" alt="Ryan Taylor"></span>
+				</a>
+				<div class="dropdown-menu">
+					<div class="user-header">
+						<div class="avatar avatar-sm">
+							<img src="assets/adimgs/profiles/avatar-01.jpg" alt="User Image" class="avatar-img rounded-circle">
+						</div>
+						<div class="user-text">
+							<h6>Ryan Taylor</h6>
+							<p class="text-muted mb-0">Administrator</p>
+						</div>
+					</div>
+					<a class="dropdown-item" href="profile.html">My Profile</a>
+					<a class="dropdown-item" href="settings.html">Settings</a>
+					<a class="dropdown-item" href="login.html">Logout</a>
+				</div>
+			</li>
+			<!-- /User Menu -->
+			
+		</ul>
+		<!-- /Header Right Menu -->
+		
+	</div>
+	<!-- /Header -->
+	
+	<!-- Sidebar -->
+	<div class="sidebar" id="sidebar" >
+		<div class="sidebar-inner slimscroll">
+			<div id="sidebar-menu" class="main-menu-wrapper sidebar-menu">
+				<ul >
+					<li class="menu-title"> 
+						<span>Main</span>
+						<a id="menu_close" class="menu-close" href="javascript:void(0);">
+							<i id="close" class="fas fa-times"></i>
+						</a>
+					</li>
+					<li> 
+						<a routerLink="/dashboard"><i class="fe fe-home"></i> <span>Dashboard</span></a>
+					</li>
+					<li> 
+						<a routerLink="/expertlist"><i class="fe fe-user"></i> <span>Experts</span></a>
+					</li>
+					<li> 
+						<a routerLink="/companylist"><i class="fe fe-users"></i> <span>Companies</span></a>
+					</li>
+					<li> 
+						<a routerLink="/addrequests"><i class="fe fe-user-plus"></i> <span>Requests</span></a>
+					</li>
+					<li>
+						<a routerLink="/chat">
+							<i class="fas fa-comments"></i>
+							<span>Message</span>
+							<small class="unread-msg">23</small>
+						</a>
+					</li>
+					<li> 
+						<a routerLink="/skills"><i class="fe fe-star-o"></i> <span>Reviews</span></a>
+					</li>
+					<li> 
+						<a href="javascript:(void)"><i class="fe fe-activity"></i> <span>Transactions</span></a>
+					</li>
+					<li> 
+						<a routerLink="/specialties"><i class="fe fe-vector"></i> <span>Specialties</span></a>
+					</li>
+					<li class="submenu">
+						<a href="javascript:void(0)" ><i class="fe fe-document"></i> <span> Reports</span> <span class="menu-arrow"></span></a>
+						<ul>
+							<li><a href="javascript:void(0)">Invoice Reports</a></li>
+						</ul>
+					</li>
+					<li> 
+						<a routerLink='/expertprofile'><i class="fe fe-user-plus"></i> <span>Profile</span></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- /Sidebar -->
+	
+		<!-- Page Wrapper -->
+		<div class="page-wrapper">
+			
+			<div class="content container-fluid">
+				
+				<!-- Page Header -->
+				<div class="page-header">
+					<div class="row">
+						<div class="col-sm-12">
+							<h3 class="page-title">Welcome Admin!</h3>
+							<ul class="breadcrumb">
+								<li class="breadcrumb-item active">Dashboard</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- /Page Header -->
+				<div class="row">
+					<div class="col-xl-3 col-sm-6 col-12">
+						<div class="card">
+							<div class="card-body">
+								<div class="dash-widget-header">
+									<span class="dash-widget-icon text-primary border-primary">
+										<i class="fe fe-users"></i>
+									</span>
+									<div class="dash-count">
+										<h3>{{numberOfExperts}}</h3>
+									</div>
+								</div>
+								<div class="dash-widget-info">
+									<h6 class="text-muted">Experts</h6>
+									<div class="progress progress-sm">
+										<div class="progress-bar bg-primary w-50"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 col-sm-6 col-12">
+						<div class="card">
+							<div class="card-body">
+								<div class="dash-widget-header">
+									<span class="dash-widget-icon text-success">
+										<i class="fe fe-credit-card"></i>
+									</span>
+									<div class="dash-count">
+										<h3>{{numberOfCompanies}}</h3>
+									</div>
+								</div>
+								<div class="dash-widget-info">
+									
+									<h6 class="text-muted">Companies</h6>
+									<div class="progress progress-sm">
+										<div class="progress-bar bg-success w-50"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<h4 class="mb-4">Adding Requests</h4>
+						<div class="appointment-tab">
+						
+							<!-- Appointment Tab -->
+							<ul class="nav nav-tabs nav-tabs-solid nav-tabs-rounded" >
+								<li class="nav-item" >
+									<a class="nav-link active" href="#upcoming-appointments" data-toggle="tab" >Experts</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#today-appointments" data-toggle="tab">Companies</a>
+								</li> 
+							</ul>
+							<!-- /Appointment Tab -->
+							
+							<div class="tab-content">
+							
+								<!-- Upcoming Appointment Tab -->
+								<div class="tab-pane show active" id="upcoming-appointments">
+									<div class="card card-table mb-0">
+										<div class="card-body">
+											<div class="table-responsive">
+												<table class="table table-hover table-center mb-0">
+													<thead>
+														<tr>
+															<th>Expert Name</th>
+															<th>Request Date</th>
+															<th></th>
+														</tr>
+													</thead>
+													<tbody *ngIf="numberOfExperts > 0 ">
+														<tr *ngFor="let expert of experts; let i = index">
+															<td *ngIf="expert.isConfirmed !== true">
+																<h2 class="table-avatar">
+																	<a class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src='{{ "http://localhost:3000/" + expert?.image }}'  alt="User Image"></a>
+																	<a style="cursor: pointer;" (click)="selectExpert(expert._id)" >{{expert.username | uppercase}} <span>{{expert._id}}</span></a>
+																</h2>
+															</td>
+															<td *ngIf="expert.isConfirmed !== true">{{today | date }} <span class="d-block text-info">{{ today | date:'shortTime' }}</span></td>
+															<td *ngIf="expert.isConfirmed !== true" class="text-right">
+																<div class="table-action">
+																	<a (click)="selectExpert(expert?._id)" class="btn btn-sm bg-info-light">
+																		<i class="far fa-eye"></i> View
+																	</a>
+																	
+																	<a (click)="acceptExpert(expert._id)" class="btn btn-sm bg-success-light">
+																		<i class="fas fa-check" ></i> Accept
+																	</a>
+																	<a class="btn btn-sm bg-danger-light" (click)="deleteExpert(expert._id)">
+																		<i class="fas fa-times" ></i> Cancel
+																	</a>
+																</div>
+															</td>
+														</tr>
+													</tbody>
+												</table>		
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- /Upcoming Appointment Tab -->
+						   
+								<!-- Today Appointment Tab -->
+								<div class="tab-pane" id="today-appointments">
+									<div class="card card-table mb-0">
+										<div class="card-body">
+											<div class="table-responsive">
+												<table class="table table-hover table-center mb-0">
+													<thead>
+														<tr>
+															<th>Company Name</th>
+															<th>Request Date</th>
+															<th></th>
+														</tr>
+													</thead>
+													<tbody *ngIf="numberOfCompanies > 0">
+														<tr *ngFor='let company of companies; let i = index' > 
+															<td *ngIf="company.isConfirmed !== true" [ngStyle]="{'visibility' : company?.isConfirmed  ? 'hidden' : 'visible'}">
+																<h2 class="table-avatar">
+																	<a  class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" [src]="company?.image" alt="User Image"></a>
+																	<a >{{company?.name | uppercase}} <span>#{{company?._id}}</span></a>
+																</h2>
+															</td>
+															<td *ngIf="company.isConfirmed !== true">14 Nov 2019 <span class="d-block text-info">6.00 PM</span></td>
+															<td *ngIf="company.isConfirmed !== true" class="text-right">
+																<div class="table-action">
+																	<a href="javascript:void(0);" class="btn btn-sm bg-info-light">
+																		<i class="far fa-eye"></i> View
+																	</a>
+																	
+																	<a class="btn btn-sm bg-success-light" (click)="acceptCompany(company._id)">
+																		<i class="fas fa-check"></i> Accept
+																	</a>
+																	<a class="btn btn-sm bg-danger-light" (click)="deleteCompany(company._id)">
+																		<i class="fas fa-times"></i> Cancel
+																	</a>
+																</div>
+															</td>
+														</tr>
+													</tbody>
+												</table>		
+											</div>	
+										</div>	
+									</div>	
+								</div>
+								<!-- /Today Appointment Tab -->
+								
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-6 d-flex" >
+					
+						<!-- /Accepted Companies-->
+						<div class="card card-table flex-fill example" >
+							<div class="card-header">
+								<h4 class="card-title">Companies List</h4>
+							</div>
+							<div class="card-body">
+								<div class="table-responsive">
+									<table class="table table-hover table-center mb-0">
+										<thead>
+											<tr>
+												<th>Company Name</th>
+												<th>Speciality</th>
+												<th>Email</th>
+												<th>Company ID</th>
+												<th>Rating</th>
+											</tr>
+										</thead>
+										<tbody *ngIf="numberOfCompanies > 0">
+											<tr *ngFor="let company of companies; let i = index"  >
+												<td *ngIf="company?.isConfirmed !== false">
+													<h2 class="table-avatar">
+														<a href="profile.html" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" [src]="company?.image" alt="User Image"></a>
+														<a style="cursor: pointer;">{{company?.name | uppercase}}</a>
+													</h2>
+												</td>
+												<td *ngIf="company.isConfirmed !== false">{{company?.specialty?.title | uppercase}}</td>
+												<td *ngIf="company.isConfirmed !== false">{{company?.email}}</td>
+												<td *ngIf="company.isConfirmed !== false">{{company?._id}}</td>
+												<td *ngIf="company.isConfirmed !== false">
+													<i class="fe fe-star text-warning"></i>
+													<i class="fe fe-star text-warning"></i>
+													<i class="fe fe-star text-warning"></i>
+													<i class="fe fe-star text-warning"></i>
+													<i class="fe fe-star-o text-secondary"></i>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+						<!-- /Accepted Companies-->
+						
+					</div>
+					<div class="col-md-6 d-flex">
+					
+						<!-- Accepted Experts -->
+						<div class="card  card-table flex-fill example">
+							<div class="card-header">
+								<h4 class="card-title">Experts List</h4>
+							</div>
+							<div class="card-body">
+								<div class="table-responsive">
+									<table class="table table-hover table-center mb-0">
+										<thead>
+											<tr>													
+												
+												<th>Expert name</th>
+												<th>Specialty</th>
+												<th>Email</th>
+												<th>Expert ID</th>
+												<th></th>													
+											</tr>
+										</thead>
+										<tbody *ngIf='numberOfExperts > 0 '>
+											<tr *ngFor='let expert of experts ; let i = index '>
+													<td *ngIf="expert.isConfirmed !== false">
+														<h2 class="table-avatar">
+															<a (click)="select(expert?._id)" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" 
+																src='{{ "http://localhost:3000/" + expert?.image }}' alt="User Image"></a>
+															<a style="cursor: pointer;">{{expert?.username | uppercase}}</a>
+														</h2>
+													</td>
+													<td *ngIf="expert.isConfirmed !== false">{{expert?.specialty?.title | uppercase}}</td>
+													<td *ngIf="expert.isConfirmed !== false">{{expert?.email}}</td>
+													<td *ngIf="expert.isConfirmed !== false" class="text-right">{{expert?._id}}</td>
+												
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+						<!-- Accepted Experts -->
+						
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+					
+						<!-- Recent Orders -->
+						<div class="card card-table">
+							<div class="card-header">
+								<h4 class="card-title">Users Status</h4>
+							</div>
+							<div class="card-body">
+								<div class="table-responsive">
+									<table class="table table-hover table-center mb-0">
+										<thead>
+											<tr>
+												<th>#</th>
+												<th>Username</th>
+												<th>ID</th>
+												<th>Speciality</th>
+												<th>Status</th>
+												<th>Last connection</th>
+											</tr>
+										</thead>
+										<tbody *ngIf='numberOfExperts > 0 '>
+											<!-- <tr *ngFor="let expert of experts; let i = index"> -->
+											<tr *ngFor="let item of collection.data | paginate: config">
+												<td *ngIf="item.value.isConfirmed !== false">{{item.id}}</td>
+												<td *ngIf="item.value.isConfirmed !== false">
+													<h2 class="table-avatar" >
+														<a (click)="selectExpert(item.value._id)" class="avatar avatar-sm mr-2"><img *ngFor="let expert of experts; " class="avatar-img rounded-circle" src='{{ "http://localhost:3000/" + expert?.image }}'  alt=""></a>
+														<a >{{item.value.username | uppercase}}</a>
+													</h2>
+												</td>
+												<td *ngIf="item.value.isConfirmed !== false">{{item.value._id}}</td>
+												<td *ngIf="item.value.isConfirmed !== false">{{item.value.specialty?.title | uppercase}}</td>
+												<td *ngIf="item.value.isConfirmed !== false">
+													<div class="status-toggle">
+														<input type="checkbox" id="status_1" class="check" checked readonly>
+														<label for="status_1" class="checktoggle">checkbox</label>
+													</div>
+												</td>
+												<td *ngIf="item.value.isConfirmed !== false">9 Nov 2019 <span class="text-primary d-block">11.00 AM - 11.15 AM</span></td>
+											</tr>
+										</tbody>
+									</table>
+									<hr>
+									<div class="col-12">
+										<pagination-controls class="my-pagination" (pageChange)="pageChanged($event)"></pagination-controls>
+
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- /Recent Orders -->
+
+						<!-- Pagination Start-->
+
+						<!-- <h3 class="card-header">Angular 9 Pagination Example</h3>
+						<div class="card-body">
+							<tr *ngFor="let item of collection.data | paginate: config">
+								<th scope="row">{{item.id}}</th>
+								<td>{{item.value}}</td>
+							  </tr>
+						</div>
+						<pagination-controls (pageChange)="pageChanged($event)"></pagination-controls> -->
+						<!-- Pagination End -->
+						
+					</div>
+				</div>
+			</div>			
+		</div>
+		<!-- /Page Wrapper -->
+
+</div>
+<!-- /Main Wrapper -->

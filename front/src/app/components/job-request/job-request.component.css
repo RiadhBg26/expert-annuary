@@ -1,0 +1,16 @@
+.pn {
+    color: black !important;
+    text-decoration: rgb(131, 131, 131);
+    background-color: #f0f0f0 !important;
+}
+h3 {
+    color: rgb(150, 158, 160) !important;
+    text-decoration: underline;
+}
+.b{
+    /* background-color: #272b41 !important; */
+    background-color: #333 !important;
+}
+.b p {
+    color: #fff
+}

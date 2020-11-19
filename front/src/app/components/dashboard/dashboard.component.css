@@ -1,0 +1,12 @@
+.isHidden{
+    display: none;
+}
+.my-pagination /deep/ .ngx-pagination{
+    /* background-color: lightgray; */
+}
+.my-pagination /deep/ .ngx-pagination li {
+    padding-left: 1rem;
+  }
+  .my-pagination /deep/ .ngx-pagination .pagination-next {
+      /* margin-left: 13rem; */
+  }

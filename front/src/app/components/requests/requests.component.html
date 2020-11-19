@@ -1,0 +1,378 @@
+<!-- Main Wrapper -->
+<div class="main-wrapper">
+
+	<!-- Header -->
+	<div class="header">
+
+		<!-- Logo -->
+		<div class="header-left">
+			<a href="index.html" class="logo">
+				<img src="assets/adimgs/logo.png" alt="Logo">
+			</a>
+			<a href="index.html" class="logo logo-small">
+				<img src="assets/adimgs/logo-small.png" alt="Logo" width="30" height="30">
+			</a>
+		</div>
+		<!-- /Logo -->
+
+		<a href="javascript:void(0);" id="toggle_btn">
+			<i class="fe fe-text-align-left"></i>
+		</a>
+
+		<div class="top-nav-search">
+			<form>
+				<input type="text" class="form-control" placeholder="Search here">
+				<button class="btn" type="submit"><i class="fa fa-search"></i></button>
+			</form>
+		</div>
+
+		<!-- Mobile Menu Toggle -->
+		<a class="mobile_btn" id="mobile_btn">
+			<i class="fa fa-bars"></i>
+		</a>
+		<!-- /Mobile Menu Toggle -->
+
+		<!-- Header Right Menu -->
+		<ul class="nav user-menu">
+
+			<!-- Notifications -->
+			<li class="nav-item dropdown noti-dropdown">
+				<a href="" class="dropdown-toggle nav-link" data-toggle="dropdown">
+					<i class="fe fe-bell"></i> <span class="badge badge-pill">3</span>
+				</a>
+				<div class="dropdown-menu notifications">
+					<div class="topnav-dropdown-header">
+						<span class="notification-title">Notifications</span>
+						<a href="javascript:void(0)" class="clear-noti"> Clear All </a>
+					</div>
+					<div class="noti-content">
+						<ul class="notification-list">
+							<li class="notification-message">
+								<a href="">
+									<div class="media">
+										<span class="avatar avatar-sm">
+											<img class="avatar-img rounded-circle" alt="User Image"
+												src="assets/adimgs/doctors/doctor-thumb-01.jpg">
+										</span>
+										<div class="media-body">
+											<p class="noti-details"><span class="noti-title">Dr. Ruby Perrin</span>
+												Schedule <span class="noti-title">her appointment</span></p>
+											<p class="noti-time"><span class="notification-time">4 mins ago</span></p>
+										</div>
+									</div>
+								</a>
+							</li>
+							<li class="notification-message">
+								<a href="">
+									<div class="media">
+										<span class="avatar avatar-sm">
+											<img class="avatar-img rounded-circle" alt="User Image"
+												src="assets/adimgs/patients/patient1.jpg">
+										</span>
+										<div class="media-body">
+											<p class="noti-details"><span class="noti-title">Charlene Reed</span> has
+												booked her appointment to <span class="noti-title">Dr. Ruby
+													Perrin</span></p>
+											<p class="noti-time"><span class="notification-time">6 mins ago</span></p>
+										</div>
+									</div>
+								</a>
+							</li>
+							<li class="notification-message">
+								<a href="">
+									<div class="media">
+										<span class="avatar avatar-sm">
+											<img class="avatar-img rounded-circle" alt="User Image"
+												src="assets/adimgs/patients/patient2.jpg">
+										</span>
+										<div class="media-body">
+											<p class="noti-details"><span class="noti-title">Travis Trimble</span> sent
+												a amount of $210 for his <span class="noti-title">appointment</span></p>
+											<p class="noti-time"><span class="notification-time">8 mins ago</span></p>
+										</div>
+									</div>
+								</a>
+							</li>
+							<li class="notification-message">
+								<a href="">
+									<div class="media">
+										<span class="avatar avatar-sm">
+											<img class="avatar-img rounded-circle" alt="User Image"
+												src="assets/adimgs/patients/patient3.jpg">
+										</span>
+										<div class="media-body">
+											<p class="noti-details"><span class="noti-title">Carl Kelly</span> send a
+												message <span class="noti-title"> to his doctor</span></p>
+											<p class="noti-time"><span class="notification-time">12 mins ago</span></p>
+										</div>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="topnav-dropdown-footer">
+						<a href="">View all Notifications</a>
+					</div>
+				</div>
+			</li>
+			<!-- /Notifications -->
+
+			<!-- User Menu -->
+			<li class="nav-item dropdown has-arrow">
+				<a href="" class="dropdown-toggle nav-link" data-toggle="dropdown">
+					<span class="user-img"><img class="rounded-circle" src="assets/adimgs/profiles/avatar-01.jpg"
+							width="31" alt="Ryan Taylor"></span>
+				</a>
+				<div class="dropdown-menu">
+					<div class="user-header">
+						<div class="avatar avatar-sm">
+							<img src="assets/adimgs/profiles/avatar-01.jpg" alt="User Image"
+								class="avatar-img rounded-circle">
+						</div>
+						<div class="user-text">
+							<h6>Ryan Taylor</h6>
+							<p class="text-muted mb-0">Administrator</p>
+						</div>
+					</div>
+					<a class="dropdown-item" href="profile.html">My Profile</a>
+					<a class="dropdown-item" href="settings.html">Settings</a>
+					<a class="dropdown-item" href="login.html">Logout</a>
+				</div>
+			</li>
+			<!-- /User Menu -->
+
+		</ul>
+		<!-- /Header Right Menu -->
+
+	</div>
+	<!-- /Header -->
+
+	<!-- Sidebar -->
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-inner slimscroll">
+			<div id="sidebar-menu" class="main-menu-wrapper sidebar-menu">
+				<ul>
+					<li class="menu-title">
+						<span>Main</span>
+						<a id="menu_close" class="menu-close" href="javascript:void(0);">
+							<i id="close" class="fas fa-times"></i>
+						</a>
+					</li>
+					<li>
+						<a routerLink="/dashboard"><i class="fe fe-home"></i> <span>Dashboard</span></a>
+					</li>
+					<li>
+						<a routerLink="/expertlist"><i class="fe fe-user"></i> <span>Experts</span></a>
+					</li>
+					<li>
+						<a routerLink="/companylist"><i class="fe fe-users"></i> <span>Companies</span></a>
+					</li>
+					<li>
+						<a routerLink="/addrequests"><i class="fe fe-user-plus"></i> <span>Requests</span></a>
+					</li>
+					<li>
+						<a routerLink="/chat">
+							<i class="fas fa-comments"></i>
+							<span>Message</span>
+							<small class="unread-msg">23</small>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:(void)"><i class="fe fe-star-o"></i> <span>Reviews</span></a>
+					</li>
+					<li>
+						<a href="javascript:(void)"><i class="fe fe-activity"></i> <span>Transactions</span></a>
+					</li>
+					<li>
+						<a routerLink="/specialties"><i class="fe fe-vector"></i> <span>Specialties</span></a>
+					</li>
+					<li class="submenu">
+						<a href="javascript:void(0)"><i class="fe fe-document"></i> <span> Reports</span> <span
+								class="menu-arrow"></span></a>
+						<ul>
+							<li><a href="javascript:void(0)">Invoice Reports</a></li>
+						</ul>
+					</li>
+					<li>
+						<a routerLink='/expertprofile'><i class="fe fe-user-plus"></i> <span>Profile</span></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- /Sidebar -->
+	<!-- Page Wrapper -->
+	<div class="page-wrapper">
+
+		<div class="content container-fluid">
+			<!-- Page Header -->
+			<div class="page-header">
+				<div class="row">
+					<div class="col-sm-12">
+						<h3 class="page-title">Requests</h3>
+						<ul class="breadcrumb">
+							<li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
+							<li class="breadcrumb-item active">Requests</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<!-- Doctor Details Tab -->
+			<div class="card">
+				<div class="card-body pt-0">
+
+					<!-- Tab Menu -->
+					<nav class="user-tabs mb-4">
+						<ul class="nav nav-tabs nav-tabs-bottom nav-justified">
+							<li class="nav-item">
+								<a class="nav-link active" href="#doc_overview" data-toggle="tab">Experts</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#doc_locations" data-toggle="tab">Companies</a>
+							</li>
+						</ul>
+					</nav>
+					<!-- /Tab Menu -->
+
+					<!-- Tab Content -->
+					<div class="tab-content pt-0">
+
+						<!-- Overview Content -->
+						<div role="tabpanel" id="doc_overview" class="tab-pane fade show active">
+							<div class="row">
+								<div class="col-md-12 col-lg-9">
+
+									<div class="col-md-8 mt-5" *ngIf="numberOfExperts > 0">
+										<div class="appointments" *ngFor="let expert of experts; let i = index">
+											<div class="appointment-list" *ngIf='expert.isConfirmed !== true'>
+												<div class="profile-info-widget">
+													<a href="javascript:void(0)" class="booking-doc-img">
+														<img [src]="expert?.image" alt="User Image">
+													</a>
+													<div class="profile-det-info">
+														<h3><a
+																href="patient-profile.html">{{expert?.username | uppercase}}</a>
+														</h3>
+														<div class="patient-details">
+															<h5><i class="far fa-clock"></i> 14 Nov 2019, 10.00 AM</h5>
+															<h5><i class="fas fa-map-marker-alt"></i> Newyork, United
+																States</h5>
+															<h5><i class="fas fa-envelope"></i>{{expert?.email}}</h5>
+															<h5 class="mb-0"><i class="fas fa-phone"></i> +1 923 782
+																4575</h5>
+														</div>
+													</div>
+												</div>
+												<div class="appointment-action">
+													<a (click)="selectExpert(expert._id)"
+														class="btn btn-sm bg-info-light" data-toggle="modal"
+														data-target="#appt_details">
+														<i class="far fa-eye"></i> View
+													</a>
+													<a (click)="acceptExpert(expert._id)"
+														class="btn btn-sm bg-success-light">
+														<i class="fas fa-check"></i> Accept
+													</a>
+													<a (click)="deleteExpert(expert._id)"
+														class="btn btn-sm bg-danger-light">
+														<i class="fas fa-times"></i> Cancel
+													</a>
+												</div>
+											</div>
+
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+						<!-- /Overview Content -->
+
+						<!-- Locations Content -->
+						<div role="tabpanel" id="doc_locations" class="tab-pane fade">
+
+							<!-- Companies List -->
+							<div class="location-list">
+								<div class="row">
+									<div class="col-md-6">
+									</div>
+									<!-- Clinic Content -->
+									<div class="col-md-6">
+
+										<div class="col-md-12 mt-5" *ngIf="numberOfCompanies > 0">
+											<div class="appointments" *ngFor="let company of companies; let i = index">
+												<!-- Appointment List -->
+												<div class="appointment-list" *ngIf='company.isConfirmed !== true'>
+													<div class="profile-info-widget">
+														<a href="javascript:void(0)" class="booking-doc-img">
+															<img [src]="company?.image" alt="User Image">
+														</a>
+														<div class="profile-det-info">
+															<h3><a
+																	href="patient-profile.html">{{company.name | uppercase}}</a>
+															</h3>
+															<div class="patient-details">
+																<h5><i class="far fa-clock"></i> 14 Nov 2019, 10.00 AM
+																</h5>
+																<h5><i class="fas fa-map-marker-alt"></i> Newyork,
+																	United States</h5>
+																<h5><i class="fas fa-envelope"></i>{{company?.email}}
+																</h5>
+																<h5 class="mb-0"><i class="fas fa-phone"></i> +1 923 782
+																	4575</h5>
+															</div>
+														</div>
+													</div>
+													<div class="appointment-action">
+														<a (click)="selectCompany(company._id)"
+															class="btn btn-sm bg-info-light" data-toggle="modal"
+															data-target="#appt_details">
+															<i class="far fa-eye"></i> View
+														</a>
+														<a (click)="acceptCompany(company._id)"
+															class="btn btn-sm bg-success-light">
+															<i class="fas fa-check"></i> Accept
+														</a>
+														<a (click)="deleteCompany(company._id)"
+															class="btn btn-sm bg-danger-light">
+															<i class="fas fa-times"></i> Cancel
+														</a>
+													</div>
+												</div>
+												<!-- /Appointment List -->
+
+											</div>
+										</div>
+									</div>
+									<!-- /Clinic Content -->
+								</div>
+							</div>
+							<!-- /Location List -->
+
+							<!-- Location List -->
+							<div class="location-list">
+								<div class="row">
+
+								</div>
+							</div>
+							<!-- /Location List -->
+
+						</div>
+						<!-- /Locations Content -->
+
+
+					</div>
+				</div>
+			</div>
+			<!-- /Doctor Details Tab -->
+			<!-- /Page Header -->
+		</div>
+	</div>
+	<!-- /Page Wrapper -->
+
+
+
+</div>
+<!-- /Main Wrapper -->
+

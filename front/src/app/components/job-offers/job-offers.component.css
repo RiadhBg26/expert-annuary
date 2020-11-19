@@ -1,0 +1,23 @@
+.pn {
+    color: black !important;
+    text-decoration: rgb(131, 131, 131);
+    background-color: #f0f0f0 !important;
+}h3{
+    color: rgb(34, 31, 31) !important;
+    text-decoration: underline;
+}
+.text-muted {
+    color: rgb(29, 25, 25) !important;
+    /* text-decoration: underline; */
+}
+.b{
+    background-color: #e4e4e4 !important;
+    /* background-color: #212529 !important; */
+}
+.b p {
+    color: rgb(41, 37, 37)
+}
+
+/* .theiaStickySidebar, .content{
+    background-color: #212529 !important;
+} */

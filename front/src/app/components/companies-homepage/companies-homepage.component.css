@@ -1,0 +1,23 @@
+.job-description {
+    height: 250px;
+    overflow: hidden;
+}
+.x ,.xxx {
+    border-radius: 5% !important;
+    width: 50px !important;
+    height: 50px !important;
+}
+.xx{
+    display: flex !important;
+}
+.info {
+    margin-left: 20px !important;
+    display: block !important;
+    text-align: left !important;
+}
+.info h4 {
+    margin: 0% !important;
+}
+a {
+    cursor: pointer;
+}
